@@ -70,7 +70,8 @@ import logging
 import os
 import pprint
 import yaml
-from kconfiglib import Kconfig, Symbol, Choice, KconfigError, \
+from kconfiglib import Kconfig
+from kconfiglib.core import Symbol, Choice, KconfigError, \
     expr_value, TYPE_TO_STR, MENU, COMMENT, STRING, BOOL, INT, HEX, UNKNOWN
 from kas import __version__, __file_version__
 from kas.context import create_global_context
